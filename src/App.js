@@ -1,9 +1,7 @@
-import { useState, useMemo } from "react";
+import { useState } from "react";
 import {
   LineChart, Line, BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip,
-  Legend, ResponsiveContainer, PieChart, Pie, Cell, ComposedChart,
-  Area, AreaChart, RadarChart, Radar, PolarGrid, PolarAngleAxis,
-  PolarRadiusAxis, Treemap
+  Legend, ResponsiveContainer, PieChart, Pie, Cell, ComposedChart, Area, AreaChart
 } from "recharts";
 
 // ── REAL DATA FROM EXCEL (PT Sarana Pertiwi Dummy Data V1) ──────────────────
